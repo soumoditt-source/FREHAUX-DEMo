@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frehaux Hairstyle Try-On</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Frehaux Logo" class="logo">
+    <h1>Frehaux Hairstyle Try-On</h1>
+    <p>AI-powered hairstyle and beard try-on experience</p>
+  </header>
+
+  <main>
+    <video id="camera" autoplay playsinline></video>
+    <canvas id="overlay"></canvas>
+
+    <div class="controls">
+      <label for="hairstyle">Choose Hairstyle:</label>
+      <select id="hairstyle">
+        <option value="none">None</option>
+        <option value="hair1.glb">Modern Cut</option>
+        <option value="hair2.glb">Classic Retro</option>
+        <option value="hair3.glb">80s Style</option>
+      </select>
+
+      <label for="beard">Choose Beard:</label>
+      <select id="beard">
+        <option value="none">None</option>
+        <option value="beard1.glb">Light Beard</option>
+        <option value="beard2.glb">Full Beard</option>
+      </select>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Frehaux by @soumdevs</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
